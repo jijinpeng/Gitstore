@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>市场定位</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="node_modules/lib-flexible/flexible.js"></script>
+<style type="text/css" media="screen">
+            *{
+                margin:0;
+                padding: 0;
+
+            }
+            html{
+               font-size: 15.625vw;
+            }
+            [data-dpr="2"]{
+                font-size: 32px;
+
+            }
+            [data-dpr="3"]{
+                font-size: 48px;
+
+            }
+
+            .container{
+                padding: 0;
+                width:10rem /* 750/75 */;
+                background: url(images/aboutus/bg.jpg);
+                
+            }
+            .title{
+                width: 100%;
+                background-color: #c5292a;
+                height: 1.173333rem /* 88/75 */;
+                line-height: 1.173333rem /* 88/75 */;
+                font-size: .426667rem /* 32/75 */;
+                color: #fff;
+                text-align: center;
+                
+            }
+            .content{
+                width: 9.36rem /* 702/75 */ /* 750/75 */;
+                margin: 0 auto;
+            }
+            .content h3{
+                    font-size:20px;
+                    color:#000;
+                    padding-left:8px;
+                    border-left:2px solid #c5292a;
+            }
+            .content_box{
+                padding:2px 0 20px 0;
+                width:100%;
+                background: #fff;
+                margin-top:10px;
+            }
+            .first_box{
+                width: 3.066667rem /* 230/75 */;
+                height: 4.133333rem /* 310/75 */;
+                background:#c5292a;
+                border-radius: .106667rem /* 8/75 */;
+                overflow: hidden;
+
+            }
+            .first_box .first{
+                width: 2.666667rem /* 200/75 */;
+                height: 2.666667rem /* 200/75 */;
+                background: #fff;
+                border-radius: 50%;
+                margin-top: .733333rem /* 55/75 */;
+                margin-left:.2rem /* 15/75 */;
+
+            }
+            .flex-container i{
+                font-size: 30px;
+                display: block;
+                color: #fff;
+                font-style: normal;
+                font-weight: bold;
+                margin-left: .48rem /* 36/75 */;
+            }
+            .flex-container span{
+                display: block;
+                text-align: center;
+                font-size: 11px /* 11/75 */;
+                margin-top:-10px;
+                color:#fff;
+            }
+            .first .first_i{
+                margin-left: .853333rem /* 64/75 */;
+                font-size: 36px/* 36/75 *//* 12/75 */;
+                color: #c5292a;
+
+            }
+            .first span{
+                color:#c5292a;
+                font-size: 14px;
+            }
+            .others{
+                width: 1.933333rem /* 145/75 */;
+                height: 1.933333rem /* 145/75 */;
+                background: #c5292a;
+                border-radius: 50%;
+                margin-top: 1.12rem /* 84/75 */;
+            }
+                
+            .flex-container{
+                    display: -webkit-flex;
+                    margin:0 auto;
+                    display: flex;
+                    width:9.36rem /* 702/75 */;
+                    justify-content:space-between;
+            }   
+            #list{
+                margin: 0 auto;
+                width:.733333rem /* 55/75 */;
+                text-align: center;
+                background: url(images/line.png) center center no-repeat;
+                position: relative;
+            }
+            #list>li{
+                width: .733333rem /* 55/75 */;
+                height: .733333rem /* 55/75 */;
+                border-radius: 50%;
+                background: red;
+                text-align: center;
+                display: inline-block;
+                line-height: .733333rem /* 55/75 */;
+                color:#fff;
+                font-size: .4rem /* 30/75 */;
+                font-weight: bold;
+
+            }
+            #list>li:nth-child(odd){
+                width: .133333rem /* 10/75 */;
+                height: .133333rem /* 10/75 */;
+                border-radius: 50%;
+                background: red;
+                text-align: center;
+                display: inline-block;
+                line-height: .733333rem /* 55/75 */;
+                margin: .533333rem /* 40/75 */auto;
+
+            }
+            #list>li:nth-child(4),#list>li:nth-child(8){
+                background: #000;
+            }
+            #list>span{
+                font-size: .32rem /* 24/75 */;
+                color:#000;
+                position: absolute;
+                letter-spacing: .04rem /* 3/75 */;
+                width:  3rem;
+                height: .733333rem /* 55/75 */;       
+            }
+            #list .li1{
+                top:1.333333rem /* 100/75 */;
+                left:1rem /* 75/75 */;
+            }
+            #list .li2{
+                top:3.333333rem /* 250/75 */ /* 100/75 */;
+                right:1rem /* 75/75 */;
+            }
+            #list .li3{
+                top:5.333333rem /* 400/75 */ /* 100/75 */;
+                left:1rem /* 75/75 */;
+            }
+            #list .li4{
+                top:7.333333rem /* 550/75 */ /* 100/75 */;
+                right:1rem /* 75/75 */;
+            }
+
+        ul.flex-container{
+            list-style: none;
+            padding:10px 0;
+        }
+        ul.flex-container li img{
+            height:.986667rem /* 74/75 */;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">市场定位</div>
+        <div class="content_box">
+            <div class="content">
+                    <h3>如果您是要找投资人</h3>
+                    <div class="flex-container">
+                        <div class="first_box">
+                            <div class="first">
+                                <i class="first_i">01</i>
+                                <span>联系中鼎泰恒</span>
+                            </div>
+                        </div>
+                        <div class="others">
+                                <i>02</i>
+                            <span>寻找资金信息</span>
+                        </div>
+                        <div class="others">
+                                <i>03</i>
+                            <span>约谈资金方</span>
+                        </div>
+                        <div class="others">
+                                <i>04</i>
+                            <span>快速融资成功</span>
+                        </div>
+                    </div>
+            </div>
+         </div>
+         
+         <div class="content_box">
+            <div class="content">
+                
+                    <h3>还是要投资项目</h3>
+                    <ul id="list">
+                        <li></li>
+                        <li>1</li>
+                        <li></li>
+                        <li>2</li>
+                        <li></li>
+                        <li>3</li>
+                        <li></li>
+                        <li>4</li>
+                        <li></li>
+                        <span class="li1">找到中鼎</span>
+                        <span class="li2">寻找优质项目</span>
+                        <span class="li3">约谈项目方</span>
+                        <span class="li4">快速投资成功</span>
+                    </ul>
+
+            </div>
+       </div>
+         <!-- 底部 -->
+         <div class="content footer">
+                <ul class="flex-container">
+                    <li><a href="#"><img src="images/aboutus/shouye.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/project.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/market.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/breeze/nav_breeze.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/we.png" alt=""></a></li>
+                </ul>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>

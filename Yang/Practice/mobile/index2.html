@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script type="text/javascript" src="node_modules/lib-flexible/flexible.js"></script>
+	<style>
+	/***app中嵌入的浏览器webView浏览器***/
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#box{
+			width:10rem;
+			height:20rem; 
+			background: #ccc;
+		}
+		#content{
+			width: 9.36rem;
+			overflow: hidden;
+			margin: 0 auto;
+			background: pink;
+		}
+		#left{
+			float: left;
+			width: 3.04rem;
+			height: 4.16rem;
+			background: red;
+			border-radius: 0.10666667rem;
+		}
+		#right{
+			float: right;
+			width: 6.10666667rem;
+			padding: 1.106666665rem 0;
+			list-style: none;
+			overflow: hidden;
+		}
+		#right>li{
+			float: left;
+			width: 1.94666667rem;
+			height: 1.94666667rem;
+			border-radius: 50%;
+			background: red;
+		}
+		#right>li:nth-child(2){
+			margin: 0 0.13333333rem;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div id="content">
+			<div id="left"></div>
+			<ul id="right">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>	
+</body>
+</html>

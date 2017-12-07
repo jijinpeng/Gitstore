@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="node_modules/lib-flexible/flexible.js"></script>
+    <style>
+          *{
+             margin:0;
+             padding: 0;
+
+         }
+         html{
+            font-size: 15.625vw;
+        }
+        [data-dpr="2"]{
+            font-size: 32px;
+
+        }
+        [data-dpr="3"]{
+            font-size: 48px;
+
+        }
+
+       .container{
+           padding: 0;
+           width:10rem /* 750/75 */;
+           background: url(images/aboutus/bg.jpg);
+           
+       }
+       .title{
+           width: 100%;
+           background-color: #c5292a;
+           height: 1.173333rem /* 88/75 */;
+           line-height: 1.173333rem /* 88/75 */;
+           font-size: .426667rem /* 32/75 */;
+           color: #fff;
+           text-align: center;
+           
+       }
+       .content{
+           width: 10rem /* 750/75 */;
+       }
+       .content p{
+        font-size: 12px;
+        color:#282828;
+        font-weight: normal;
+        display: inline-block;
+      }
+      .content  h3{
+           font-size: 14px;
+           color:#000000;
+           font-weight: bold;
+           margin: 0;
+       }
+      .content-box{
+           padding: .026667rem /* 2/75 */ .133333rem /* 10/75 */ /* 20/75 */ 0;
+           margin-top: .133333rem /* 10/75 */;
+           width: 100%;
+           background: #fff;
+       }
+       .content_img{
+           margin-top:.4rem /* 30/75 */;
+           padding-right: .266667rem /* 20/75 */;
+       }
+       .content_img img{
+           width: 2.533333rem /* 190/75 */;
+
+       }
+       .content_pha{
+           margin-top:.4rem /* 30/75 */;
+
+       }
+       .content_pha a{
+           display: inline-block;
+           margin-right: .266667rem /* 20/75 */ /* 30/75 */;
+           margin-bottom: .466667rem /* 35/75 */ /* 20/75 */ /* 30/75 */;
+           color:#c5292a;
+           font-weight: bold;
+           float: right;
+       }
+
+       /* 底部 */
+       .flex-container{
+            display: -webkit-flex;
+            margin:0 auto;
+            display: flex;
+            width:9.36rem /* 702/75 */;
+            justify-content:space-between;
+        }
+        ul.flex-container{
+            list-style: none;
+            padding:10px 0;
+        }
+        ul.flex-container li img{
+            height:.986667rem /* 74/75 */;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">项目</div>
+        <div class="content-box">
+            <div class="content flex-container">
+                <div class="content_img"><img src="images/gesida/pro1.png" alt=""></div>          <div class="content_pha">   
+                <h3>项目名称:哥斯达学院</h3>
+                <p>项目简介：GSDA是由哈佛设计学院校友领英俱乐部发起主办的，由天晓寰球（北京）建筑装饰工程有限公司承办的，以实际经验传授为特色的专业培训机构。<a href="">详情</a></p>
+                
+                </div>
+            </div>
+
+            <div class="content flex-container">
+                    <div class="content_img"><img src="images/gesida/pro2.png" alt=""></div>          <div class="content_pha">   
+                    <h3>项目名称:哥斯达学院</h3>
+                    <p>项目简介：GSDA是由哈佛设计学院校友领英俱乐部发起主办的，由天晓寰球（北京）建筑装饰工程有限公司承办的，以实际经验传授为特色的专业培训机构。<a href="">详情</a></p>
+                    
+                    </div>
+            </div>
+
+            <div class="content flex-container">
+                    <div class="content_img"><img src="images/gesida/pro3.png" alt=""></div>          <div class="content_pha">   
+                    <h3>项目名称:哥斯达学院</h3>
+                    <p>项目简介：GSDA是由哈佛设计学院校友领英俱乐部发起主办的，由天晓寰球（北京）建筑装饰工程有限公司承办的，以实际经验传授为特色的专业培训机构。<a href="">详情</a></p>
+                    
+                    </div>
+            </div>
+
+            <div class="content flex-container">
+                    <div class="content_img"><img src="images/gesida/pro4.png" alt=""></div>          <div class="content_pha">   
+                    <h3>项目名称:哥斯达学院</h3>
+                    <p>项目简介：GSDA是由哈佛设计学院校友领英俱乐部发起主办的，由天晓寰球（北京）建筑装饰工程有限公司承办的，以实际经验传授为特色的专业培训机构。<a href="">详情</a></p>
+                    
+                    </div>
+            </div>
+        </div>
+
+
+         <!-- 底部 -->
+         <div class="content footer">
+                <ul class="flex-container">
+                    <li><a href="#"><img src="images/aboutus/shouye.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/project.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/market.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/wei.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/aboutus/we.png" alt=""></a></li>
+                </ul>
+        </div>
+
+    </div>
+</body>
+</html>

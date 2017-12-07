@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="css/bootstrap-min.css">
+    <script type="text/javascript" src="node_modules/lib-flexible/flexible.js"></script>
+    <title>首页</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html{
+            font-size: 15.625vw;
+        }
+        [data-dpr="2"]{
+            font-size: 32px;
+
+        }
+        [data-dpr="3"]{
+            font-size: 48px;
+
+        }
+
+       .container{
+           padding: 0;
+           width:10rem /* 750/75 */;
+           /* height: 32rem 2400/75; */
+           background: url(images/aboutus/bg.jpg);
+           
+       }
+       .title{
+           width: 100%;
+           background-color: #c5292a;
+           height: 1.173333rem /* 88/75 */;
+           line-height: 1.173333rem /* 88/75 */;
+           font-size: .426667rem /* 32/75 */;
+           color: #fff;
+           text-align: center;
+           
+       }
+       .banner{
+           padding-bottom: 15px;
+       }
+       .banner img{
+           width:100%;
+           height: auto;
+       }
+       .content-box{
+           padding: .026667rem /* 2/75 */ 0 .133333rem /* 10/75 */ 0;
+           width: 100%;
+           background: #fff;
+       }
+       .content{
+           width:9.36rem /* 702/75 */;
+           margin: 0 auto;
+       }
+       .content  h3{
+           font-size: 20px;
+           color:#000000;
+           text-align: center;
+           margin-bottom: .266667rem /* 20/75 */;
+       }
+       .advantage{
+           margin-bottom: .133333rem /* 10/75 */;
+       }
+      .content .advance_box img{
+          width: 4.533333rem /* 340/75 */ ;
+          margin-bottom: .133333rem /* 10/75 */;
+      }
+      .content .problem{
+          width: 100%;
+          text-align: center;
+
+      }
+      .content p{
+          font-size:.16rem /* 12/75 */ /* 24/75 */;
+          color:#282828;
+          font-weight: bold;
+      }
+      .content span{
+          text-align: center;
+          display: block;
+          padding-top:.266667rem /* 20/75 */; 
+      }
+      .content .problem{
+          width: 100%;
+          text-align: center;
+          margin: -20px auto 0;
+      }
+      .content .problem img{
+          width: 4rem /* 300/75 */;
+
+      }
+      .content .problem2 img{
+          width: 9.333333rem /* 700/75 */;
+      }
+      .content .con_service{
+        margin-bottom: .053333rem /* 4/75 */
+      }
+      .content .con_service2{
+          margin-bottom: .133333rem /* 10/75 */;
+          padding-top: .133333rem /* 10/75 */;
+      }
+      /* 地图 */
+      .map{
+          height: 4.8rem /* 360/75 */;
+          position: relative;
+      }
+      .map img{
+          width:9.36rem /* 702/75 */;
+          height: 4.8rem /* 360/75 */;
+      }
+      .contact{
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          position: absolute;
+          background: rgba(0,0,0, 0.6);
+      }
+      .contact .address{
+          width: 6.533333rem /* 490/75 */;
+          height:2.373333rem /* 178/75 */ /* 148/75 */;
+          padding-top: 10px;
+          margin-bottom: .133333rem /* 10/75 */;
+          text-indent: .16rem /* 12/75 */;
+      }
+      .contact .address:active{
+            background: rgba(0,0,0,0.8);
+            border-radius:8px;
+      }
+      .contact .tel{
+           width:6.533333rem /* 490/75 */;
+            height:1.973333rem /* 148/75 */;
+            padding-top:10px;
+            text-indent:12px;
+      }
+      .contact .tel.active{
+          background: rgba(0,0,0,0.8);
+          border-radius:8px;
+      }
+      .contact p{
+        font-weight: normal;
+        margin-bottom:0;
+        color:#fff;
+      }
+
+      
+      /* 底部导航 */
+       .foot_img{
+           display: -webkit-flex;
+           width: 9.36rem /* 702/75 */;
+           margin: 0 auto;
+           justify-content: space-between;
+           
+       }
+       .img_box img{
+           width: 2.933333rem /* 220/75 */;
+           height: 1.92rem /* 144/75 */ ;
+       }
+
+      ul.foot_img{
+          list-style: none;
+          padding: 10px 0;
+      }
+      ul.foot_img li img{
+         height: .986667rem /* 74/75 */;
+      }
+       
+
+    
+    </style>
+</head>
+<body>
+       <div class="container">
+            <div class="title">首页</div>
+            <div class="banner">
+                    <a href=""><img src="images/first/banner.png" alt=""></a>  
+           </div>
+            
+         <div class="content-box advantage">
+                <div class="content">
+                   <h3>我们的优势</h3>
+                   <div class="pho_img advance_box">
+                       <a href=""><img src="images/first/led.png" alt=""></a>  
+                       <a href=""><img src="images/first/selection.png" alt=""></a>
+                       <a href=""><img src="images/first/manager.png" alt=""></a>
+                       <a href=""><img src="images/first/threshold.png" alt=""></a>
+                       <a href=""><img src="images/first/quota.png" alt=""></a>
+                       <a href=""><img src="images/first/mechainism.png" alt=""></a>
+                   </div>
+                   
+                </div>
+            </div>
+            
+            <div class="content-box con_service">
+                    <div class="content">
+                        <h3>服务的对象</h3>
+                        <p>如果你想赚股权投资的钱，<br/>而苦于：</p>
+                        <div class="problem">
+                            <img src="images/first/problem.png" alt="">
+                            
+                        </div>
+                    </div>
+            </div>
+
+            <div class="content-box con_service2">
+                    <div class="content">
+                        <p>如果你的小微企业或者初<br/>创企业</p>
+                        <div class="problem2">
+                            <img src="images/first/enterprise.png" alt="">
+                        </div>
+                        <span>那么，请来找我们</span>
+                    </div>
+            </div>
+
+            <div class="content-box con_map">
+                 <div class="map">
+                     <img src="images/first/map.png" alt="">
+                     <div class="contact">
+                         <div class="content">
+                             <div class="address">
+                                    <p>我们的地址：</p>
+                                    <p>北京海淀区双清路甲79号启迪之星102</p>
+                                    <p>A79 Shuangqing Road, Tus Star, Unit 102, </p>
+                                    <p>Haidian district, Beijing China, 100084</p>
+                             </div>
+                             <div class="tel">
+                                    <p>联系方式：</p>
+                                    <p>电话：8610-84372188</p>
+                                    <p>传真：8610-84372088</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+            </div>
+
+            <div class="content">
+                <ul class="foot_img">
+                    <li><a href=""><img src="images/aboutus/shouye.png" alt=""></a></li>
+                    <li><a href=""><img src="images/aboutus/project.png" alt=""></a></li>
+                    <li><a href=""><img src="images/aboutus/market.png" alt=""></a></li>
+                    <li><a href=""><img src="images/aboutus/wei.png" alt=""></a></li>
+                    <li><a href=""><img src="images/aboutus/we.png" alt=""></a></li>
+                </ul>
+
+            </div>
+
+       </div>
+    
+</body>
+</html>
